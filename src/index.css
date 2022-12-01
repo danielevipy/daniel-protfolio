@@ -1,0 +1,171 @@
+/* import google font poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  /*custom variables - base color*/
+  --light_gray: #e8e9ec;
+  --gray: #70757a;
+  --blue: #1a73e8;
+  --dark_blue: #1452a4;
+  --light_blue: #ebf4ffb0;
+  --dark_gray: #484b50;
+  --black: #000000;
+  --white: #ffffff;
+
+  --transition: all 400ms ease;
+
+  /*width of container class large, medium, small*/
+  --container-width-l: 75%;
+  --container-width-m: 86%;
+  --container-width-s: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*remove the defult scrollbar*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fafafa;
+  color: var(--dark-gray);
+  line-height: 1.7;
+  /* background-image: url(../src/assets/bg-texture.png); */
+}
+
+/*================ GENEARL STYLE =================*/
+.container {
+  width: var(--container-width-l);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding-right: 0.5rem;
+
+  padding-left: 0.5rem;
+  font-weight: 500;
+  color: var(--dark_gray);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--gray);
+}
+
+section > h2 {
+  color: var(--blue);
+  margin-bottom: 3rem;
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+a {
+  color: var(--blue);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--dark-gray);
+}
+
+.btn {
+  width: max-content;
+  background: var(--white);
+  display: inline-block;
+  color: var(--blue);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 0.8px solid var(--light_gray);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  color: var(--blue);
+  background: var(--light_blue);
+  border: 0.8px solid var(--light_gray);
+}
+
+.btn-primary {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background: var(--dark_blue);
+  color: var(--white);
+}
+
+.disable_btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--gray);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  /* border: 1px solid var(--gray); */
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.textarea_font {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*===== MEDIA QUERIES FOR RESPONSIVE DESIGN =====*/
+/*===== SMALL DEVICES =====*/
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-s);
+  }
+  .section {
+    margin-top: 2rem;
+  }
+}
+/*===== MEDIUME DEVICES =====*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-m);
+  }
+  .section {
+    margin-top: 6rem;
+  }
+}

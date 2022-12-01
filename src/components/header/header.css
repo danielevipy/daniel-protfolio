@@ -1,0 +1,138 @@
+header {
+  padding-top: 5rem;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/*============ CTA ==============*/
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: 'center';
+  width: 100%;
+}
+
+.rows {
+  display: table;
+  width: 100%;
+  height: auto;
+}
+.rows .row {
+  display: table-cell;
+}
+
+.row.r1 {
+  width: 20%;
+  vertical-align: top;
+}
+.row.r2 {
+  width: 60%;
+}
+.row.r3 {
+  vertical-align: top;
+  width: 20%;
+}
+
+/*============ HEADER SOCIALS ==============*/
+
+.header__socials {
+  margin-top: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social_icon_header {
+  font-size: 1.5rem;
+}
+/*============ ME ==============*/
+
+.me_img {
+  margin-top: 5rem;
+  background: var(--white);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.mern_img {
+  width: 15rem;
+  margin: 1rem;
+  transition: transform 3s ease-in-out;
+}
+.mern_img:hover {
+  transform: rotate(360deg);
+}
+/*============ SCROLL DOWN ==============*/
+.scroll__down {
+  margin-top: 10rem;
+
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  font-size: 1.2rem;
+}
+
+/*===== MEDIA QUERIES FOR RESPONSIVE DESIGN =====*/
+/*===== SMALL DEVICES =====*/
+@media screen and (max-width: 600px) {
+  .row.r2 {
+    width: 100%;
+  }
+
+  .row.r1 {
+    display: table-row;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .header__socials {
+    display: inline;
+  }
+  .social_icon_header {
+    margin: 1rem;
+  }
+  .row.r3,
+  .scroll__down {
+    display: none;
+  }
+}
+/*===== MEDIUME DEVICES =====*/
+@media screen and (max-width: 1024px) {
+  .row.r2 {
+    width: 60%;
+  }
+
+  .row.r1 {
+    display: table-row;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .header__socials {
+    display: inline;
+  }
+
+  .social_icon_header {
+    font-size: 2rem;
+
+    margin: 1rem;
+  }
+  .row.r3,
+  .scroll__down {
+    display: none;
+  }
+}

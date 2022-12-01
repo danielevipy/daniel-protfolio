@@ -1,0 +1,72 @@
+footer {
+  background: var(--white);
+  padding: 3rem 0;
+  border-top: 0.8px solid var(--light_gray);
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+
+footer a {
+  color: var(--gray);
+}
+footer a:hover {
+  color: var(--blue);
+}
+
+.footer__logo {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.footer_copyright {
+  margin-bottom: 4rem;
+  color: var(--gray);
+}
+
+/*============ HEADER SOCIALS ==============*/
+
+.footer__socials {
+  flex-direction: row;
+  size: 1rem;
+  align-items: center;
+}
+.social_icon {
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+/*===== MEDIA QUERIES FOR RESPONSIVE DESIGN =====*/
+/*===== SMALL DEVICES =====*/
+@media screen and (max-width: 600px) {
+  .footer__social {
+    margin-bottom: 2.6rem;
+  }
+
+  .footer__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
