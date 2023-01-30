@@ -23,11 +23,35 @@ const Skills = () => {
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
+              <p>MongoDB</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Mongoose</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
               <p>SQLite</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
+              <p>Firebase</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Nodemon</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>bcrypt.js</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
               <p>Dotenv</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Uuid</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
@@ -39,19 +63,19 @@ const Skills = () => {
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Mongoose</p>
+              <p>Morgan</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>bcrypt.js</p>
+              <p>Helmet</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Nodemon</p>
+              <p>Cors</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>uuid</p>
+              <p>Body Parser</p>
             </li>
           </ul>
         </article>
@@ -67,11 +91,27 @@ const Skills = () => {
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
+              <p>Class & Functional Components</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
               <p>React Hooks</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Redux</p>
+              <p>Redux, react-redux, redux toolkit</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Angular JS - Basic</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Three JS</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>HTML Canvas Graphics</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
@@ -80,6 +120,14 @@ const Skills = () => {
             <li>
               <ImCheckmark2 className="skills__list-icon" />
               <p>Next JS</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Emotion</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Material UI</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
@@ -109,6 +157,10 @@ const Skills = () => {
               <ImCheckmark2 className="skills__list-icon" />
               <p>Zustand</p>
             </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>nivo</p>
+            </li>
           </ul>
         </article>
         {/* END OF FrontEnd */}
@@ -119,27 +171,76 @@ const Skills = () => {
           <ul className="skills__list">
             <li>
               <ImCheckmark2 className="skills__list-icon" />
+              <p>TypeScript</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Data structures & Algorithms</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
               <p>Asynchronous programming</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Functional programming</p>
+              <p>Big O</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Memory management</p>
+              <p>OOP</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Jest</p>
+              <p>Design Pattern</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Mocha</p>
+              <p>System Design</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>REST</p>
+              <p>Docker</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Git</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>AWS</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Heroku</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Jest & Error handling</p>
+            </li>
+
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>DOM</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Fetch API</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>REST & CRUD</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Postman</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Cross Browser code</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>HTTP status codes</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
@@ -148,38 +249,6 @@ const Skills = () => {
             <li>
               <ImCheckmark2 className="skills__list-icon" />
               <p>File parsing</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>CRUD</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>OOP</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>DOM</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Error handling</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Postman</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>MongoDB</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Heroku</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>HTTP status codes</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
