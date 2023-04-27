@@ -1,4 +1,8 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { confirmAlert } from 'react-confirm-alert'; // Import
+import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
+
 import Header from './components/header/Header.jsx';
 import About from './components/about/About.jsx';
 import Experience from './components/experience/Experience.jsx';
@@ -6,11 +10,49 @@ import Skills from './components/skills/Skills.jsx';
 import Portfolio from './components/portfolio/Portfolio.jsx';
 import Contact from './components/contact/Contact.jsx';
 import Footer from './components/footer/Footer.jsx';
-import Navbar from './components/Navbar/Navbar.jsx';
+import Navbar from './components/navbar/Navbar.jsx';
 
 //rafce shortcut
 
 const App = () => {
+  const submit = () => {
+    confirmAlert({
+      customUI: ({ onClose }) => {
+        return (
+          <div className="popup">
+            <h1>Hello 👋🏻,</h1>
+            <h1>How are you?🙂</h1>
+            <p>
+              My Name is{' '}
+              <b style={{ color: '#1a73e8' }}>
+                Daniel Levi - JavaScript Developer
+              </b>
+              ,
+            </p>
+            <p>And i'm looking for my next challenge,</p>
+            <p> Feel free to challenge me❣️</p>
+
+            <button
+              style={{ margin: '0.5rem' }}
+              className="btn btn-primary"
+              onClick={onClose}
+            >
+              Close
+            </button>
+          </div>
+        );
+      },
+    });
+  };
+
+  useEffect(() => {
+    const firstTime = localStorage.getItem('first_time');
+    if (firstTime !== '1') {
+      submit();
+      localStorage.setItem('first_time', '1');
+    }
+  });
+
   return (
     <>
       <Navbar />

@@ -47,6 +47,12 @@ body {
   /* background-image: url(../src/assets/bg-texture.png); */
 }
 
+.popup {
+  background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 1.5rem;
+}
 /*================ GENEARL STYLE =================*/
 .container {
   width: var(--container-width-l);
