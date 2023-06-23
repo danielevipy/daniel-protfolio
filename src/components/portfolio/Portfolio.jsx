@@ -70,6 +70,22 @@ const data = [
     github: 'https://github.com/Daniel3Levi/earth',
     demo: 'https://gameoflife.danielevi.co.il/',
   },
+  {
+    image: IMG4,
+    id: 8,
+    title: 'Blog',
+    details: 'React | Node | Express | MongoDB',
+    github: 'https://github.com/Daniel3Levi/InBalance',
+    demo: '',
+  },
+  {
+    image: IMG4,
+    id: 9,
+    title: 'Personal-Trainer Website',
+    details: 'React',
+    github: 'https://github.com/Daniel3Levi/client',
+    demo: '',
+  },
 ];
 
 const Portfolio = () => {
