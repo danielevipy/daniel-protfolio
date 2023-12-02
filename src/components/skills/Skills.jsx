@@ -15,6 +15,14 @@ const Skills = () => {
           <ul className="skills__list">
             <li>
               <ImCheckmark2 className="skills__list-icon" />
+              <p>Django</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Django REST Framework</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
               <p>Node JS</p>
             </li>
             <li>
@@ -28,10 +36,6 @@ const Skills = () => {
             <li>
               <ImCheckmark2 className="skills__list-icon" />
               <p>MongoDB</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Mongoose</p>
             </li>
           </ul>
         </article>
@@ -47,50 +51,22 @@ const Skills = () => {
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Vite JS</p>
+              <p>Redux</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Next JS</p>
+              <p>HTML</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>React Hooks</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Redux, react-redux, redux toolkit</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Zustand</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Three JS</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>HTML Canvas Graphics</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Material UI</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>React-Bootstrap</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Styled-Components</p>
+              <p>CSS</p>
             </li>
           </ul>
         </article>
         {/* END OF FrontEnd */}
         <article className="skills">
           <div className="skills__head">
-            <h3>Fundamentals, APIs & Frameworks</h3>
+            <h3>General</h3>
           </div>
           <ul className="skills__list">
             <li>
@@ -111,15 +87,7 @@ const Skills = () => {
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>Design Pattern</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
               <p>MVC</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Docker</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
@@ -127,35 +95,7 @@ const Skills = () => {
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>AWS</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Heroku</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Jest & Error handling</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
               <p>Web API</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>DOM</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Fetch API</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>Axios</p>
-            </li>
-            <li>
-              <ImCheckmark2 className="skills__list-icon" />
-              <p>REST API</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
@@ -163,7 +103,7 @@ const Skills = () => {
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
-              <p>JSON</p>
+              <p>Jupyter Notebook</p>
             </li>
           </ul>
         </article>

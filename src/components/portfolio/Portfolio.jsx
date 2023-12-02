@@ -2,20 +2,45 @@ import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
 import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/portfolio4.jpg';
+import React from 'react';
 
 import '../portfolio/portfolio.css';
 
 const data = [
   {
-    id: 0,
-    image: IMG1,
+    id: 1,
+    image: IMG4,
+    title: 'Messaging System',
+    details: 'Django, DRF',
+    github: 'https://github.com/Daniel3Levi/messaging_system/tree/temp',
+    demo: '',
+  },
+  {
+    id: 2,
+    image: IMG4,
+    title: 'CRM System',
+    details: 'Django',
+    github: 'https://github.com/Daniel3Levi/Django-CRM',
+    demo: '',
+  },
+  {
+    id: 3,
+    image: IMG4,
     title: 'Ecommerce Website',
     details: 'React | Node | Express | MongoDB',
     github: 'https://github.com/Daniel3Levi/oved_store_eco',
     demo: '',
   },
   {
-    id: 1,
+    id: 4,
+    image: IMG4,
+    title: 'Gallery',
+    details: 'React | Node | Express',
+    github: 'https://github.com/Daniel3Levi/ms_app_daniel_levi',
+    demo: '',
+  },
+  {
+    id: 5,
     image: IMG4,
     title: 'Store API',
     details: 'Node | Express | MongoDB',
@@ -23,15 +48,15 @@ const data = [
     demo: '',
   },
   {
-    id: 2,
-    image: IMG2,
+    id: 6,
+    image: IMG4,
     title: 'Task Manager',
     details: 'Node | Express | MongoDB',
     github: 'https://github.com/Daniel3Levi/TaskManager',
     demo: '',
   },
   {
-    id: 3,
+    id: 7,
     image: IMG4,
     title: 'Notes',
     details: 'TypeScript | Vite | React',
@@ -39,8 +64,8 @@ const data = [
     demo: 'http://notes.danielevi.co.il/',
   },
   {
-    id: 4,
-    image: IMG3,
+    id: 8,
+    image: IMG4,
     title: 'Daniel Levi Protfolio',
     details: 'React',
     github: 'https://github.com/Daniel3Levi/daniel-protfolio',
@@ -48,31 +73,7 @@ const data = [
   },
   {
     image: IMG4,
-    id: 5,
-    title: 'InBalance Website',
-    details: 'React | Node | Express | MongoDB',
-    github: 'https://github.com/Daniel3Levi/InBalance',
-    demo: '',
-  },
-  {
-    image: IMG4,
-    id: 6,
-    title: 'Earth',
-    details: 'Three JS | React',
-    github: 'https://github.com/Daniel3Levi/earth',
-    demo: '',
-  },
-  {
-    image: IMG4,
-    id: 7,
-    title: 'Game Of Life',
-    details: 'Vite | React',
-    github: 'https://github.com/Daniel3Levi/earth',
-    demo: 'https://gameoflife.danielevi.co.il/',
-  },
-  {
-    image: IMG4,
-    id: 8,
+    id: 9,
     title: 'Blog',
     details: 'React | Node | Express | MongoDB',
     github: 'https://github.com/Daniel3Levi/InBalance',
@@ -80,7 +81,23 @@ const data = [
   },
   {
     image: IMG4,
-    id: 9,
+    id: 10,
+    title: 'Earth',
+    details: 'Three JS | React',
+    github: 'https://github.com/Daniel3Levi/earth',
+    demo: '',
+  },
+  {
+    image: IMG4,
+    id: 11,
+    title: 'Game Of Life',
+    details: 'Vite | React',
+    github: 'https://github.com/Daniel3Levi/earth',
+    demo: 'https://gameoflife.danielevi.co.il/',
+  },
+  {
+    image: IMG4,
+    id: 12,
     title: 'Personal-Trainer Website',
     details: 'React',
     github: 'https://github.com/Daniel3Levi/client',

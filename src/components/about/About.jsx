@@ -11,6 +11,29 @@ const About = () => {
       <h5>Get to know</h5>
       <h2>About Me</h2>
 
+      <div className="container about__cards">
+        <article className="about__card">
+          <GiBrain className="about__icon" />
+          <h5>Logical & Creative Thinking</h5>
+          <small>Skills to study any problem and find the solution.</small>
+        </article>
+        <article className="about__card">
+          <FaAward className="about__icon" />
+          <h5>Experience</h5>
+          <small>
+            In-depth understanding of development concepts, ideas and
+            technologies.
+          </small>
+        </article>
+
+        <article className="about__card">
+          <FaBookReader className="about__icon" />
+          <h5>Self Learning</h5>
+          <small>
+            Positive self-criticism and a desire for self-development.
+          </small>
+        </article>
+      </div>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -18,57 +41,39 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <GiBrain className="about__icon" />
-              <h5>Logical & Creative Thinking</h5>
-              <small>
-                Skills to objectively study any problem and find the appropriate
-                solution.
-              </small>
-            </article>
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>
-                I have comprehensive knowledge and an in-depth understanding of
-                development concepts, ideas and technologies.
-              </small>
-            </article>
-
-            <article className="about__card">
-              <FaBookReader className="about__icon" />
-              <h5>Self Learning</h5>
-              <small>
-                I know how to concentrate, separate the wheat from the chaff, i
-                have positive self-criticism and a desire for self-development.
-              </small>
-            </article>
-          </div>
           <div>
+            <h2>
+              Discovering Solutions, Creating Impact: My Journey in Programming
+            </h2>
             <p>
-              My favorite thing in life, the purpose of my life is problem
-              solving, in any field not only in programming.
-              <br />I think that programming is the most efficient way i know to
-              work in what i love.
-              <br />
-              For me, programming is personal development.
+              At the core of my being lies an insatiable passion for
+              problem-solving. Whether it's in programming or any other domain,
+              unraveling complexities and finding solutions energizes me. I've
+              found programming to be an incredibly efficient avenue for this
+              pursuit, blending my love for challenges with tangible outcomes.
             </p>
             <p>
-              In my perspective, every person should develop their ability to
-              solve problems, to learn the process of finding solutions, so i
-              instill my attitude in everyone around me.
-              <br /> I believe that with my attitude and abilities i can be an
-              asset to your company.
+              Programming, to me, is more than a profession—it's a journey of
+              personal growth. I firmly believe in the power of problem-solving
+              skills, not just as a technical ability, but as a life skill. This
+              belief drives me to inspire and instill a similar mindset in
+              everyone around me.
             </p>
             <p>
-              I have a great understanding in the process of develop both client
-              and server sides, I have an in-depth understanding of development
-              concepts, ideas and technologies, i'm a dynamic, possessing strong
-              creative thinking skills, i know how to work closely with others,
-              to listen and understand the needs of those around me, i׳m
-              dedicated to constantly improving myself, maximize my productivity
-              and quickly respond to changes.
+              Joining your team, I bring more than just technical expertise. My
+              comprehensive understanding of both client and server-side
+              development, coupled with a deep grasp of development principles
+              and technologies, positions me uniquely. I'm dynamic, creatively
+              inclined, and excel in collaborative environments. My strong
+              listening skills enable me to truly understand and align with the
+              needs of my colleagues and projects.
+            </p>
+
+            <p>
+              I'm committed to continuous self-improvement, adapting swiftly to
+              new challenges, and maximizing productivity. I believe that my
+              attitude, skills, and approach to problem-solving can be a
+              significant asset to your company.
             </p>
           </div>
 

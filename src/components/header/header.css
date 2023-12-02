@@ -70,14 +70,12 @@ header {
   overflow: hidden;
   padding: 1rem 1rem 1rem 1rem;
 }
-.mern_img {
+.lang_img {
   width: 15rem;
-  margin: 1rem;
-  transition: transform 3s ease-in-out;
+  margin-top: 2rem;
+  border-radius: 1rem;
 }
-.mern_img:hover {
-  transform: rotate(360deg);
-}
+
 /*============ SCROLL DOWN ==============*/
 .scroll__down {
   margin-top: 10rem;
@@ -90,10 +88,13 @@ header {
 /*===== MEDIA QUERIES FOR RESPONSIVE DESIGN =====*/
 /*===== SMALL DEVICES =====*/
 @media screen and (max-width: 600px) {
+  
+  .me_img {
+    margin-top: 2rem;
+  }
   .row.r2 {
     width: 100%;
   }
-
   .row.r1 {
     display: table-row;
     text-align: center;

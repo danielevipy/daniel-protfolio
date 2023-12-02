@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 import CTA from './CTA';
 import ME from '../../assets/me.png';
-import MERN from '../../assets/mern.png';
+import LANG_IMG from '../../assets/python_js.jpeg';
 
 import Socials from '../socials/Socials';
 
@@ -11,8 +11,7 @@ const Header = () => {
     <header id="home">
       <div className="container header__container">
         <h1>Daniel Levi</h1>
-        <h5 className="text-gray">JavaScript Developer</h5>
-        <h5 className="text-gray">Full-Stack engineer</h5>
+        <h3 className="text-gray">Backend Developer</h3>
 
         <CTA />
         <div className="container">
@@ -39,7 +38,7 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img className="mern_img" src={MERN} alt="Me"></img>
+          <img className="lang_img" src={LANG_IMG} alt="Me"></img>
         </a>
       </div>
     </header>

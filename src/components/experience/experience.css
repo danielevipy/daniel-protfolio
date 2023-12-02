@@ -36,6 +36,19 @@
   gap: 1rem;
 }
 
+.experience_text{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+
+.experience_text p {
+  margin-top: 1rem ;
+  margin-bottom: 1rem ;
+
+}
+
 .experience__details-icon {
   margin-top: 6px;
   color: var(--blue);
