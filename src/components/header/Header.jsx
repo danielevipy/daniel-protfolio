@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/me.png';
+import ME from '../../assets/me.jpeg';
 import LANG_IMG from '../../assets/python_js.jpeg';
 
 import Socials from '../socials/Socials';

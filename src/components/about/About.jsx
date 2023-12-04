@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/about-me.jpg';
+import ME from '../../assets/about-me.jpeg';
 import { FaAward } from 'react-icons/fa';
 import { FaBookReader } from 'react-icons/fa';
 import { GiBrain } from 'react-icons/gi';
