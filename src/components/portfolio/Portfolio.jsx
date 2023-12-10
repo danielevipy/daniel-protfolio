@@ -9,7 +9,7 @@ const data = [
     image: IMG4,
     title: 'Messaging System',
     details: 'Django, DRF',
-    github: 'https://github.com/Daniel3Levi/messaging_system/tree/temp',
+    github: 'https://github.com/Daniel3Levi/messaging_system/tree/dev',
     demo: '',
   },
   {
