@@ -20,13 +20,26 @@ const App = () => {
       customUI: ({ onClose }) => {
         return (
           <div className="popup">
-            <h2>🌟 Seeking New Opportunities! 🌟</h2>
-            <h3>Hi, How are you?🙂</h3>
+            <h2>
+              <span role="img" aria-label="star">
+                🌟
+              </span>{' '}
+              Seeking New Opportunities!{' '}
+              <span role="img" aria-label="star">
+                🌟
+              </span>
+            </h2>
+            <h3>
+              Hi, How are you?
+              <span role="img" aria-label="smile">
+                🙂
+              </span>
+            </h3>
             <p>
               My Name is <b style={{ color: '#1a73e8' }}>Daniel Levi</b>,
             </p>
             <p>
-              I'm a passionate Backend Developer, deeply committed to crafting
+              I'm a passionate Software Developer, deeply committed to crafting
               exceptional software solutions.
             </p>
             <p>I love what I do and always put my heart into my work.</p>

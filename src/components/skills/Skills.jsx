@@ -10,7 +10,7 @@ const Skills = () => {
       <div className="container skills__container">
         <article className="skills">
           <div className="skills__head">
-            <h3>BackEnd</h3>
+            <h3>Backend</h3>
           </div>
           <ul className="skills__list">
             <li>
@@ -42,7 +42,7 @@ const Skills = () => {
         {/* END OF BackEnd */}
         <article className="skills">
           <div className="skills__head">
-            <h3>FrontEnd</h3>
+            <h3>Frontend</h3>
           </div>
           <ul className="skills__list">
             <li>
@@ -75,7 +75,15 @@ const Skills = () => {
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />
+              <p>Testing</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
               <p>Asynchronous programming</p>
+            </li>
+            <li>
+              <ImCheckmark2 className="skills__list-icon" />
+              <p>Threading & Multiprocessing</p>
             </li>
             <li>
               <ImCheckmark2 className="skills__list-icon" />

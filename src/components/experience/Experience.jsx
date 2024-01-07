@@ -61,57 +61,75 @@ const Experience = () => {
       </div>
       <div className="container">
         <div className="experience_text">
-          <h2>Backend Development Expertise with a Data-Driven Edge</h2>
+          <b>
+            My Python Passion - Embracing OOP, Algorithms, and Data Structures
+          </b>
           <p>
-            I'm a dedicated backend developer specializing in Node.js, Django,
-            and the Django REST Framework, paired with a strong foundation in
-            SQL. My goal is simple: to excel and become a leader in the field of
-            backend development.
+            My love for Python programming is more than professional; it's a
+            passion. <br /> This elegant and simple language is my tool for
+            crafting innovative solutions to complex challenges. <br /> I am
+            particularly drawn to the clarity and efficiency Python brings to
+            object oriented programming. <br />
+            It allows me to create code that is not only functional but also
+            beautifully structured.
+          </p>
+          <p>
+            Algorithms and data structures fascinate me, as they are essential
+            for writing efficient and effective Python code. <br /> They sharpen
+            my problem solving skills, enabling me to tackle real world
+            challenges with precision and creativity. <br /> For me, Python is
+            not just coding, it's a way of thinking and innovating.
+          </p>
+
+          <b>Backend Development Expertise with a Data Driven Edge</b>
+          <p>
+            I possess a profound understanding of backend development, with a
+            specialization in Node.js, Django, and the Django REST Framework.
+            <br />
+            This expertise is complemented by a robust foundation in SQL,
+            enabling me to build and maintain efficient, scalable, and reliable
+            database driven applications.
           </p>
 
           <b>Passion for Data and Frontend Technologies</b>
           <p>
-            My fascination doesn't stop at backend technologies. I have a
-            profound interest in working with and manipulating data. The field
-            of data science, especially data manipulation, captivates me,
+            My fascination doesn't stop at backend technologies. <br /> I have a
+            profound interest in working with and manipulating data. <br /> The
+            field of data science, especially data manipulation, captivates me,
             fueling my desire to delve deeper into this area.
           </p>
           <p>
             In addition to backend development, I am skilled in frontend
-            technologies. My experience with React, HTML, and CSS allows me to
-            have a holistic view of web development, ensuring seamless
+            technologies. <br /> My experience with React, HTML, and CSS allows
+            me to have a holistic view of web development, ensuring seamless
             integration and functionality from the server to the user interface.
           </p>
           <b>Machine Learning and Computer Vision Enthusiast</b>
           <p>
             My passion extends into the realms of machine learning and computer
-            vision. Utilizing technologies like TensorFlow, PyTorch, and Jupyter
-            Notebook, I explore and innovate in these cutting-edge areas. This
-            experience not only enhances my backend development skills but also
+            vision. <br /> I explore and innovate in these cutting edge areas.
+            This experience not only enhances my development skills but also
             aligns with my interest in data and its endless possibilities.
           </p>
           <b>A Foundation Rooted in Physics and Mathematics</b>
           <p>
-            My enthusiasm for physics and mathematics is not just academic; it's
-            a cornerstone of my approach to problem-solving and technology. This
-            background empowers me to tackle complex challenges with logical
-            precision and creative insight, especially in areas like algorithm
-            development and data analysis.
+            My enthusiasm for physics and mathematics; it's a cornerstone of my
+            approach to problem solving and technology. This background empowers
+            me to tackle complex challenges with logical precision and creative
+            insight, especially in areas like algorithm development and data
+            analysis.
           </p>
           <b>Bringing It All Together</b>
           <p>
-            As a backend developer with a passion for data, front-end
-            technologies, machine learning, and computer vision, I offer a
-            unique blend of skills and interests. My journey is about mastering
-            the backend while embracing the interconnectedness of technology -
-            from data science to user experience.
+            As a software developer with a passion for algorithms & data
+            structures, data, web technologies, machine learning, and computer
+            vision, I offer a unique blend of skills and interests. <br /> My
+            journey is about be the best in what i do, to be professional.
           </p>
           <p>
-            If you're seeking a developer with a deep backend focus, a
-            data-driven mindset, and a broad skill set spanning from machine
-            learning to frontend development, I'd love to connect. Let's explore
-            how my expertise and passions can contribute to your next project
-            and drive technological innovation.
+            If you're seeking a developer like me, I'd love to connect. <br />{' '}
+            Let's explore how my expertise and passions can contribute to your
+            next project and drive technological innovation.
           </p>
         </div>
         <a

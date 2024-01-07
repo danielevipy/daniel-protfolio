@@ -11,7 +11,7 @@ const Header = () => {
     <header id="home">
       <div className="container header__container">
         <h1>Daniel Levi</h1>
-        <h3 className="text-gray">Backend Developer</h3>
+        <h3 className="text-gray">Software Developer</h3>
 
         <CTA />
         <div className="container">
@@ -33,11 +33,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <a
-          href="https://www.mongodb.com/mern-stack"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://www.mongodb.com/mern-stack" rel="noreferrer">
           <img className="lang_img" src={LANG_IMG} alt="Me"></img>
         </a>
       </div>

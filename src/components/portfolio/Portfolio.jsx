@@ -5,11 +5,19 @@ import '../portfolio/portfolio.css';
 
 const data = [
   {
-    id: 1,
+    id: 0,
     image: IMG4,
     title: 'Messaging System',
     details: 'Django, DRF',
     github: 'https://github.com/Daniel3Levi/messaging_system/tree/dev',
+    demo: '',
+  },
+  {
+    id: 1,
+    image: IMG4,
+    title: 'Card Game',
+    details: 'Python, OOP',
+    github: 'https://github.com/Daniel3Levi/maxHandWins',
     demo: '',
   },
   {
@@ -114,7 +122,7 @@ const Portfolio = () => {
           {data.map(({ id, image, title, details, github, demo }) => (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <a href={demo} target="_blank" rel="noreferrer">
+                <a href={demo} rel="noreferrer">
                   <img src={image} alt={title} />
                 </a>
               </div>
@@ -123,21 +131,11 @@ const Portfolio = () => {
               </div>
 
               <div className="portfolio__item-cta">
-                <a
-                  href={github}
-                  target="_blank"
-                  className="btn"
-                  rel="noreferrer"
-                >
+                <a href={github} className="btn" rel="noreferrer">
                   Github
                 </a>
                 {demo !== '' ? (
-                  <a
-                    href={demo}
-                    target="_blank"
-                    className="btn btn-primary"
-                    rel="noreferrer"
-                  >
+                  <a href={demo} className="btn btn-primary" rel="noreferrer">
                     Live Demo
                   </a>
                 ) : (
