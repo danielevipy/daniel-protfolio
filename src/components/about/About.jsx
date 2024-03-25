@@ -13,24 +13,24 @@ const About = () => {
 
       <div className="container about__cards">
         <article className="about__card">
+          <FaBookReader className="about__icon" />
+          <h5>My Knowledge</h5>
+          <small>
+            In depth understanding of development concepts, ideas and
+            technologies.
+          </small>
+        </article>
+        <article className="about__card">
           <GiBrain className="about__icon" />
-          <h5>Logical & Creative Thinking</h5>
+          <h5>My Logical & Creative Thinking</h5>
           <small>Skills to study any problem and find the solution.</small>
         </article>
         <article className="about__card">
           <FaAward className="about__icon" />
-          <h5>Experience</h5>
+          <h5>My Personality</h5>
           <small>
-            In-depth understanding of development concepts, ideas and
-            technologies.
-          </small>
-        </article>
-
-        <article className="about__card">
-          <FaBookReader className="about__icon" />
-          <h5>Self Learning</h5>
-          <small>
-            Positive self-criticism and a desire for self-development.
+            Loyalty and integrity are the cornerstones of my personal and
+            professional ethos.
           </small>
         </article>
       </div>
@@ -42,38 +42,38 @@ const About = () => {
         </div>
         <div className="about__content">
           <div>
-            <h2>My Journey in Programming</h2>
             <p>
-              At the core of my being lies an insatiable passion for problem
-              solving. <br /> Whether it's in programming or any other domain,
-              unraveling complexities and finding solutions energizes me. <br />{' '}
-              I've found programming to be an incredibly efficient avenue for
-              this pursuit, blending my love for challenges with tangible
-              outcomes.
-            </p>
-            <p>
-              Programming, to me, is more than a profession, it's a journey of
-              personal growth. <br /> I firmly believe in the power of problem
-              solving skills, not just as a technical ability, but as a life
-              skill. <br /> This belief drives me to inspire and instill a
-              similar mindset in everyone around me.
-            </p>
-            <p>
-              As a programmer, I bring more than just technical expertise.
-              <br /> My comprehensive understanding of programming consepts,
-              coupled with a deep grasp of development principles and
-              technologies, positions me uniquely.
-              <br /> I'm dynamic, creatively inclined, and excel in
-              collaborative environments. <br /> My strong listening skills
-              enable me to truly understand and align with the needs of my
-              colleagues and projects.
-            </p>
-
-            <p>
-              I'm committed to continuous self improvement, adapting swiftly to
-              new challenges, and maximizing productivity. <br /> I believe that
-              my attitude, skills, and approach to problem solving can be a
-              significant asset to any company.
+              As an aspiring developer with a strong foundation in computer
+              science fundamentals, <br />I am passionately committed to a
+              career in software development.
+              <br />I am known for my ability to learn quickly and
+              independently, i have got a growth mindset that drives me to
+              continuously seek self improvement.
+              <br /> My curiosity and willingness to experiment have often led
+              me to innovative solutions.
+              <br />
+              As a team player with strong interpersonal and communication
+              skills, I excel in collaborative environments, where I can share
+              ideas and contribute to business growth.
+              <br />
+              My creativity, reliability, and effective task management skills
+              are complemented by my ability to define scopes, manage risks,
+              changes and oversee projects.
+              <br />I am not daunted by challenges; rather, I am highly
+              motivated and adept at problem solving.
+              <br />
+              I am firmly convinced that each challenge I overcome not only
+              contributes to my personal development but also molds me into a
+              better version of myself.
+              <br />
+              My decision making ability, commitment, and sense of
+              responsibility are key strengths that I bring to any team.
+              <br />I am open minded and value the importance of giving and
+              receiving feedback respectfully.
+              <br />
+              This open mindedness, combined with my technical skills and
+              eagerness to contribute to a dynamic organization, positions me
+              well for a rewarding career in development.
             </p>
           </div>
 

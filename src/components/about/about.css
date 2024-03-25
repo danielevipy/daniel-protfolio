@@ -62,21 +62,7 @@
   color: var(--dark_gray);
 }
 
-/*===== MEDIA QUERIES FOR RESPONSIVE DESIGN =====*/
-/*===== SMALL DEVICES =====*/
-@media screen and (max-width: 600px) {
 
-  .about__cards {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  .about__content {
-    text-align: center;
-  }
-  .about__content p {
-    margin: 1.5rem 0;
-  }
-}
 /*===== MEDIUME DEVICES =====*/
 @media screen and (max-width: 1024px) {
   .about__container {
@@ -86,8 +72,8 @@
   .about__cards {
     grid-template-columns: 1fr;
     gap: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     padding-bottom: 1rem;
   }
   .about__me {
@@ -97,5 +83,22 @@
 
   .about__content p {
     margin: 1rem 0 1.5rem;
+  }
+}
+
+/*===== MEDIA QUERIES FOR RESPONSIVE DESIGN =====*/
+/*===== SMALL DEVICES =====*/
+@media screen and (max-width: 600px) {
+
+  .about__cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .about__content {
+    text-align: center;
+  }
+  .about__content p {
+    margin: 1.5rem 0;
   }
 }

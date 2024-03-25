@@ -23,8 +23,8 @@ const App = () => {
             <h2>
               <span role="img" aria-label="star">
                 🌟
-              </span>{' '}
-              Seeking New Opportunities!{' '}
+              </span>
+              Seeking New Opportunities!
               <span role="img" aria-label="star">
                 🌟
               </span>

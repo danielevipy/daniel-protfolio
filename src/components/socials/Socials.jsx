@@ -8,7 +8,7 @@ const HeaderSocials = ({ class_style, icon_style }) => {
     <div className={class_style}>
       <a
         className={icon_style}
-        href="https://www.linkedin.com/in/daniel-levi-mern"
+        href="https://www.linkedin.com/in/danielevipy/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -16,7 +16,7 @@ const HeaderSocials = ({ class_style, icon_style }) => {
       </a>
       <a
         className={icon_style}
-        href="https://github.com/Daniel3Levi"
+        href="https://github.com/danielevipy"
         target="_blank"
         rel="noopener noreferrer"
       >

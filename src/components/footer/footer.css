@@ -35,6 +35,7 @@ footer a:hover {
   margin-bottom: 4rem;
 }
 
+
 .footer_copyright {
   margin-bottom: 4rem;
   color: var(--gray);
@@ -60,8 +61,8 @@ footer a:hover {
   }
 
   .footer__socials {
-    display: flex;
-    flex-direction: column;
+    display: inline;
+  
     align-items: center;
   }
 

@@ -2,7 +2,6 @@ import React from 'react';
 import './header.css';
 import CTA from './CTA';
 import ME from '../../assets/me.jpeg';
-import LANG_IMG from '../../assets/python_js.jpeg';
 
 import Socials from '../socials/Socials';
 
@@ -33,9 +32,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <a href="https://www.mongodb.com/mern-stack" rel="noreferrer">
-          <img className="lang_img" src={LANG_IMG} alt="Me"></img>
-        </a>
       </div>
     </header>
   );
