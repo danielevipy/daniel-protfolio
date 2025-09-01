@@ -1,5 +1,5 @@
 /* import google font poppins*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #fafafa;
   color: var(--dark-gray);
   line-height: 1.7;
@@ -57,7 +57,6 @@ body {
 .container {
   width: var(--container-width-l);
   margin: 0 auto;
-
 }
 
 h1,
@@ -154,7 +153,7 @@ img {
 }
 
 .textarea_font {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*===== MEDIA QUERIES FOR RESPONSIVE DESIGN =====*/

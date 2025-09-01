@@ -55,6 +55,24 @@ textarea {
   color: var(--dark_gray);
 }
 
+.spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /*===== MEDIA QUERIES FOR RESPONSIVE DESIGN =====*/
 /*===== SMALL DEVICES =====*/
 @media screen and (max-width: 600px) {

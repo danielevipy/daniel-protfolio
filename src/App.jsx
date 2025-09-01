@@ -1,18 +1,16 @@
-import React from 'react';
-import { useEffect } from 'react';
-import { confirmAlert } from 'react-confirm-alert'; // Import
-import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
+import React from "react";
+import { useEffect } from "react";
+import { confirmAlert } from "react-confirm-alert";
+import "react-confirm-alert/src/react-confirm-alert.css";
 
-import Header from './components/header/Header.jsx';
-import About from './components/about/About.jsx';
-import Experience from './components/experience/Experience.jsx';
-import Skills from './components/skills/Skills.jsx';
-import Portfolio from './components/portfolio/Portfolio.jsx';
-import Contact from './components/contact/Contact.jsx';
-import Footer from './components/footer/Footer.jsx';
-import Navbar from './components/navbar/Navbar.jsx';
-
-//rafce shortcut
+import Header from "./components/header/Header.jsx";
+import About from "./components/about/About.jsx";
+import Experience from "./components/experience/Experience.jsx";
+import Skills from "./components/skills/Skills.jsx";
+import Portfolio from "./components/portfolio/Portfolio.jsx";
+import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 const App = () => {
   const submit = () => {
@@ -36,7 +34,7 @@ const App = () => {
               </span>
             </h3>
             <p>
-              My Name is <b style={{ color: '#1a73e8' }}>Daniel Levi</b>,
+              My Name is <b style={{ color: "#1a73e8" }}>Daniel Levi</b>,
             </p>
             <p>
               I'm a passionate Software Developer, deeply committed to crafting
@@ -53,7 +51,7 @@ const App = () => {
             </p>
 
             <button
-              style={{ margin: '0.5rem' }}
+              style={{ margin: "0.5rem" }}
               className="btn btn-primary"
               onClick={onClose}
             >
@@ -66,10 +64,10 @@ const App = () => {
   };
 
   useEffect(() => {
-    const firstTime = localStorage.getItem('first_time');
-    if (firstTime !== '1') {
+    const firstTime = localStorage.getItem("first_time");
+    if (firstTime !== "1") {
       submit();
-      localStorage.setItem('first_time', '1');
+      localStorage.setItem("first_time", "1");
     }
   });
 

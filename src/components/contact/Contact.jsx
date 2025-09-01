@@ -1,33 +1,81 @@
-import React from 'react';
-import './contact.css';
-import { MdOutlineEmail } from 'react-icons/md';
-
-import { TbBrandWhatsapp } from 'react-icons/tb';
-import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import React, { useRef, useState } from "react";
+import "./contact.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { TbBrandWhatsapp } from "react-icons/tb";
+import { confirmAlert } from "react-confirm-alert";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
+  const [loading, setLoading] = useState(false);
+
+  const contactPopup = (name) => {
+    confirmAlert({
+      customUI: ({ onClose }) => (
+        <div className="popup">
+          <h2>
+            Message Sent Successfully!
+            <span role="img" aria-label="check">
+              ✅
+            </span>
+          </h2>
+          <h3>
+            Thank you, <b>{name}</b>, for reaching out!
+            <span role="img" aria-label="smile">
+              🙂
+            </span>
+          </h3>
+          <p>
+            I have received your message and will contact you as soon as
+            possible.
+          </p>
+          <p>
+            In the meantime, feel free to check my{" "}
+            <a
+              href="https://www.linkedin.com/in/danielevipy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#1a73e8", textDecoration: "underline" }}
+            >
+              LinkedIn profile.
+            </a>
+          </p>
+          <button
+            style={{ margin: "0.5rem" }}
+            className="btn btn-primary"
+            onClick={onClose}
+          >
+            Close
+          </button>
+        </div>
+      ),
+    });
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
+    setLoading(true);
+
+    const userName = e.target.name.value; // get the name from the form
 
     emailjs
       .sendForm(
-        'service_b1uw7i8',
-        'template_bnszlxg',
+        "service_b1uw7i8",
+        "template_bnszlxg",
         form.current,
-        'BWEN-GMmk3V90-g2t'
+        "pb2GXW_EUL2bD2RZw"
       )
-
       .then(
         (result) => {
           console.log(result.text);
-          alert('Message send! thank you!');
+          contactPopup(userName); // pass the name here
           e.target.reset();
+          setLoading(false);
         },
         (error) => {
           console.log(error.text);
-          alert('Error!');
+          alert("Error sending message!");
+          setLoading(false);
         }
       );
   };
@@ -64,20 +112,15 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        {/* END OF CONTACT */}
+
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
             placeholder="Your Full Name"
             required
-          ></input>
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            required
-          ></input>
+          />
+          <input type="email" name="email" placeholder="Your Email" required />
           <textarea
             className="textarea_font"
             name="message"
@@ -85,8 +128,14 @@ const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button className="btn btn-primary" type="submit">
-            Send Message
+          <button className="btn btn-primary" type="submit" disabled={loading}>
+            {loading ? (
+              <>
+                <span className="spinner"></span> Sending...
+              </>
+            ) : (
+              "Send Message"
+            )}
           </button>
         </form>
       </div>

@@ -1,96 +1,73 @@
+/*Skills Section*/
 .skills__container {
   display: grid;
-  padding: 0rem 3rem 0 3rem;
-  align-items: flex-start;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
+  padding: 0 3rem;
 }
 
 .skills {
-  color: var(--dark_gray);
   background-color: var(--white);
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 1.5rem;
   border: 1px solid var(--light_gray);
-  height: fit-content;
-  transition: var(--transition);
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
+
 .skills:hover {
-  background-color: transparent;
-  border-color: var(--light_gray);
-  cursor: default;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
 .skills__head {
   background: var(--light_blue);
-  padding: 2rem;
-  border-radius: 0 0 2rem 2rem;
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
-}
-.skills__head h3 {
-  color: var(--color-bg);
-  font-size: 1rem;
+  padding: 1.5rem 1rem;
   text-align: center;
 }
 
-.skills__list {
-  padding: 2rem;
+.skills__head h3 {
+  color: var(--color-bg);
+  font-size: 1.1rem;
+  margin: 0;
 }
+
+.skills__list {
+  padding: 1.5rem;
+}
+
 .skills__list li {
   display: flex;
-  gap: 1rem;
+  align-items: start;
+  gap: 0.8rem;
   margin-bottom: 0.8rem;
 }
+
 .skills__list-icon {
-  color: var(--gray);
-  margin-top: 2px;
+  color: var(--blue);
+  margin-top: 4px;
+  flex-shrink: 0;
 }
+
 .skills__list p {
   font-size: 0.9rem;
+  margin: 0;
 }
 
-.professional_skills h4 {
-  color: var(--black);
-}
+/* ===== MEDIA QUERIES ===== */
 
-.professional_skills ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-
-.professional_skills li ul li {
-  padding-left: 1rem;
-  margin-top: 0.1rem;
-  margin-bottom: 0.1rem;
-}
-
-
-
-
-/* === ========= MEDIA QUERIES (MEDIUM DEVICES) ==========  */
+/* Medium Devices */
 @media screen and (max-width: 1024px) {
   .skills__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    padding: 0rem 1rem 0 1rem;
-
-  }
-  .skills {
-    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2rem;
   }
 }
 
-/* === ========= MEDIA QUERIES (SMALL DEVICES) ==========  */
+/* Small Devices */
 @media screen and (max-width: 600px) {
   .skills__container {
-    grid-template-columns:  1fr;
-    gap: 2rem;
-    padding: 0rem 1rem 0 1rem;
-
-  }
-
-  .professional_skills {
-    padding: 1rem 1rem;
-  
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+    gap: 1.5rem;
   }
 }
