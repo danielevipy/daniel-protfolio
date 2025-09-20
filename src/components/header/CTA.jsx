@@ -1,12 +1,12 @@
 import React from "react";
-import CV from "../../assets/Daniel_Levi_0509773977_Full_Stack_Developer_CV_2026.pdf";
+import CV from "../../assets/Daniel_Levi_0509773977_Software Developer_CV_2026.pdf";
 
 const CTA = () => {
   return (
     <div className="cta">
       <a
         href={CV}
-        download="Daniel_Levi_0509773977_Full_Stack_Developer_CV_2026"
+        download="Daniel_Levi_0509773977_Software Developer_CV_2026"
         className="btn"
       >
         Download CV
