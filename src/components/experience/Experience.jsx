@@ -113,7 +113,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="professional_skills__grid">
+      <div className="container professional_skills__grid">
         {inputs.map((skill, idx) => (
           <div key={idx} className="professional_skill_card">
             <h4>{skill.title}</h4>

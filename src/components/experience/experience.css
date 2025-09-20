@@ -102,12 +102,13 @@
 /* Professional Skills Section */
 
 .professional_skills__grid {
-  padding: 2rem 3rem;
   display: grid;
   justify-items: center;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1.5rem;
+  align-items: stretch;
+  grid-auto-rows: 1fr;
 }
 
 .professional_skill_card {

@@ -38,7 +38,7 @@ header {
   vertical-align: top;
 }
 .row.r2 {
-  width: 60%;
+  width: 40%;
 }
 .row.r3 {
   vertical-align: top;
@@ -90,9 +90,7 @@ header {
   .me_img {
     margin-top: 5rem;
   }
-  .row.r2 {
-    width: 100%;
-  }
+
   .row.r1 {
     display: table-row;
     text-align: center;
@@ -111,10 +109,6 @@ header {
 }
 /*===== MEDIUME DEVICES =====*/
 @media screen and (max-width: 1024px) {
-  .row.r2 {
-    width: 60%;
-  }
-
   .row.r1 {
     display: table-row;
     text-align: center;
