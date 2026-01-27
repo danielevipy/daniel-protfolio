@@ -37,8 +37,8 @@ const App = () => {
               My Name is <b style={{ color: "#1a73e8" }}>Daniel Levi</b>,
             </p>
             <p>
-              I'm a passionate Software Developer, deeply committed to crafting
-              exceptional software solutions.
+              I'm a passionate Full Stack Developer, deeply committed to
+              crafting exceptional software solutions.
             </p>
             <p>I love what I do and always put my heart into my work.</p>
             <p>

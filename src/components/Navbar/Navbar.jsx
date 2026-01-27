@@ -16,11 +16,51 @@ const Navbar = () => {
     <div className="Navbar">
       <span className="nav-logo">DanieLevi</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a onClick={() => scrollToSection("home")}>Home</a>
-        <a onClick={() => scrollToSection("about")}>About</a>
-        <a onClick={() => scrollToSection("portfolio")}>Portfolio</a>
-        <a onClick={() => scrollToSection("experience")}>Experience</a>
-        <a onClick={() => scrollToSection("contact")}>Contact</a>
+        <a
+          href="#home"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("home");
+          }}
+        >
+          Home
+        </a>
+        <a
+          href="#about"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("about");
+          }}
+        >
+          About
+        </a>
+        <a
+          href="#portfolio"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("portfolio");
+          }}
+        >
+          Portfolio
+        </a>
+        <a
+          href="#experience"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("experience");
+          }}
+        >
+          Experience
+        </a>
+        <a
+          href="#contact"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("contact");
+          }}
+        >
+          Contact
+        </a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

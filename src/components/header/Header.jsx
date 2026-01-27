@@ -10,8 +10,8 @@ const Header = () => {
     <header id="home">
       <div className="container header__container">
         <h1>Daniel Levi</h1>
-        <h3 className="text-gray">Software Developer</h3>
-        <h4 className="text-gray">Physics Student</h4>
+        <h3 className="text-gray">Full Stack Developer</h3>
+        <h4 className="text-gray">React, Node.js MongoDB</h4>
         <CTA />
         <div className="container">
           <div className="rows">

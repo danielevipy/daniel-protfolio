@@ -16,7 +16,7 @@ const Skills = () => {
             <ul className="skills__list">
               <li>
                 <ImCheckmark2 className="skills__list-icon" />
-                <p>Node JS</p>
+                <p>Node.js</p>
               </li>
               <li>
                 <ImCheckmark2 className="skills__list-icon" />
